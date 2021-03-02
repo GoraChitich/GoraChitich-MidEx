@@ -1,15 +1,15 @@
-header, main, nav, footer{
+/* header, main, nav, footer{
     
     border: solid black;
-}
+} */
 
 /* nav>ul>li>ul{
     display:none;
 } */
 
-.center{
+/* .center{
     border:solid black;
-}
+} */
 
 .content-big>*{
      /* visibility: hidden;  */

@@ -24,6 +24,10 @@ main>.center{
     flex-direction: row;
 }
 
+.line-bottom-center{
+    margin-top: 20px;
+}
+
 .content-big{
     width: 293px;
     height: 355px;
