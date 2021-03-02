@@ -1,0 +1,19 @@
+header, main, nav, footer{
+    
+    border: solid black;
+}
+
+/* nav>ul>li>ul{
+    display:none;
+} */
+
+.center{
+    border:solid black;
+}
+
+.content-big:nth-child(2),.content-big:nth-child(3){
+    visibility: hidden;
+}
+.content-small{
+    visibility: hidden;
+}

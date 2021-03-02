@@ -1,0 +1,116 @@
+:root{
+    direction: rtl;
+    --widthpage: 900px;
+    --color-footer:rgb(144, 144, 144);
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+img[src*="paz_logo"]{
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    top: 20px;
+     right: -100px;
+}
+
+img[src*="menu_home_blue"]{
+    width: 17px;
+    height: 17px;
+    position:absolute;
+    top:50px;
+    right: 40px;
+}
+
+.menu>nav>ul>li>a:hover{
+    color:#005ca0;
+}
+.menu>nav>ul>li{
+    
+    list-style-type: none;
+
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    height: 105px;
+    background-color: var(--color-footer);
+}
+
+header>*{
+    flex-basis: 33.3%;
+}
+header>.center{
+    flex-basis: var(--widthpage);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu>nav>ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.menu>nav{
+    width: 100%;
+    height: 33px;
+}
+
+.menu>nav>ul>li>a,.menu>nav>ul>li>ul{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 0 10px 0 10px;
+    border-left: solid rgb(90, 89, 89);
+    
+}
+
+/*copy-paste ddmenu*/
+
+  .menu>nav>ul>li {
+    position: relative;
+  }
+  
+  .menu>nav>ul>li>ul {
+    background-color:var(--color-footer);
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: fit-content;
+    display: none;
+     /* box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.5);  */
+    padding-top: 5px ;
+  }
+
+  .menu>nav>ul>li{
+      display: block;
+  }
+
+  .menu>nav>ul>li:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
