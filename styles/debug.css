@@ -18,3 +18,10 @@
     /* visibility: hidden; */
 }
 
+.part1,.part2{
+    visibility: hidden;
+}
+
+.part3> *{
+    /* border: solid black; */
+}
