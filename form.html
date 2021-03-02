@@ -101,12 +101,12 @@
 
         <div class="center">
             <div class="part1">
-                
+
                 <a href="#">צור קשר</a>
             </div>
 
             <div class="part2">
-                <div class="nav">
+                <div class="nav-text">
                     <a href="#">עמוד הבית</a>
                     <span>> צור קשר</span>
                 </div>
@@ -124,22 +124,26 @@
                     </p>
 
                     <form>
-
-                        <label for="first-name">* שם פרטי</label><input id="first-name"><span class="error">שדה חובה
-                        </span>
-
-                        <label for="last-name">* שם משפחה</label><input id="last-name"><span class="error">שדה חובה
-                        </span>
-
-                        <label for="telephone">* טלפון</label><input id="telephone"><span class="error">שדה חובה
-                        </span>
-
-                        <label for="email">* שם פרטי</label><input id="email"><span class="error">שדה חובה
-                        </span>
-
-                        <label for="comment"></label><textarea id="comment"></textarea>
-
-                        <button>שלח</button>
+                        
+                        <div><label for="first-name">* שם פרטי</label><input id="first-name" minlength="3" required><span class="error">שדה
+                                חובה
+                            </span></div>
+                        <div>
+                            <label for="last-name">* שם משפחה</label><input id="last-name"  minlength="3" required><span class="error">שדה חובה
+                            </span>
+                        </div>
+                        <div>
+                            <label for="telephone">* טלפון</label><input id="telephone"  minlenght="10" maxlength="10" required><span class="error">שדה חובה
+                            </span>
+                        </div>
+                        <div>
+                            <label for="email">* E-mail</label><input id="email" type="email" required><span class="error">שדה חובה
+                            </span>
+                        </div>
+                        <div>
+                            <textarea id="comment"></textarea>
+                        </div>
+                        <div><button>שלח</button></div>
                     </form>
                 </div>
 
@@ -150,9 +154,9 @@
                     <h3>פרטי יצירת קשר</h3>
                     <h4>פז חברת נפט בע"מ </h4>
                     <p>ורו פארק, בניין הולנד
-                        קיבוץ יקום 60972
-                        טל. שירות לקוחות 1-800-774-774
-                        פקס.09-8641714
+                        <br/>קיבוץ יקום 60972
+                        <br/>טל. שירות לקוחות 1-800-774-774
+                        <br/>פקס.09-8641714
 
                     </p>
                 </div>

@@ -18,10 +18,15 @@
     /* visibility: hidden; */
 }
 
-.part1,.part2{
-    visibility: hidden;
+.part1,.part3{
+    /* visibility: hidden; */
 }
 
 .part3> *{
     /* border: solid black; */
+}
+
+form>div{
+    /* border: solid green; */
+
 }
