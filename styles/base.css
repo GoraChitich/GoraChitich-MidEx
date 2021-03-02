@@ -2,6 +2,9 @@
     direction: rtl;
     --widthpage: 900px;
     --color-footer:rgb(144, 144, 144);
+    
+}
+*{
     box-sizing: border-box;
 }
 body{
