@@ -60,20 +60,43 @@
     font-weight: bold;
   }
   
-  img[src*='paz_logo'] {
+
+  #a-paz-logo{
     width: 142px;
     height: 93px;
     position: absolute;
     top: 35px;
     right: -10px;
+    border:solid;
+    display: block;
+  }
+
+  a-paz-logo>img {
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    /* top: 35px;
+    right: -10px; */
+  }
+  
+  
+  #menu_home_blue {
+    width: 37px;
+    height: 37px;
+  
+    position: absolute;
+    top: 15px;
+    right: 145px;
+    display: block;
   }
   
   img[src*='menu_home_blue'] {
     width: 17px;
   
     position: absolute;
-    bottom: 15px;
-    right: 145px;
+    
+    /* bottom: 15px;
+    right: 145px; */
   }
   
   .menu > nav > ul > li  a:hover {
